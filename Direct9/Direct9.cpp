@@ -125,6 +125,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
 
+   MessageBox(hWnd, _T("Inicio"), _T("DirectX 9"), 0);
+
    if (FAILED(CheckDirect9(hWnd)))
 	   return FALSE;
 
