@@ -10,7 +10,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << "Console...";
 	
-	 dcin >> input;
+	cin >> input;
 
 	return 0;
 }
